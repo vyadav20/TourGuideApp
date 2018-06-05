@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0FFFF"
+    tools:context="com.varshayadv.tourguideapp.RomaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/roma_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/roma" />
+
+        <TextView
+            android:id="@+id/roma_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/roma_image"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="ROMA"
+            android:textColor="#191970"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/roma_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/roma_text"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="Roma [ˈroːma]) is the capital city of Italy and a special comune(named Comune di Roma Capitale). Rome also serves as the capital of the Lazio region.With 2,873,874 residents in 1,285 km2 (496.1 sq mi),[2] it is also the country's mostpopulated comune. It is the fourth-most populous city in the European Union by populationwithin city limits. It is the centre of the Metropolitan City of Rome"
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/roma_things_to_do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/roma_description"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="* Things To Do In Roma"
+            android:textColor="#0000CD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/roma_attractions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/roma_things_to_do"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="* Sights"
+            android:textColor="#0000CD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

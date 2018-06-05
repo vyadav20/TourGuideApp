@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0FFFF"
+    tools:context="com.varshayadv.tourguideapp.FloranceActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/florance_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/florance" />
+
+        <TextView
+            android:id="@+id/florance_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/florance_image"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="Florance"
+            android:textColor="#191970"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/florance_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/florance_text"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="Florence (/ˈflɒrəns/ FLORR-ənss; Italian: Firenze [fiˈrɛntse] (About this sound listen))[2] is the capital city of the Italian region of Tuscany. It is the most populous city in Tuscany, with 383,084 inhabitants in 2013, and over 1,520,000 in its metropolitan area."
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/florance_things_to_do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/florance_description"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="* Things To Do "
+            android:textColor="#0000CD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/florance_attractions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/florance_things_to_do"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="* Sights"
+            android:textColor="#0000CD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

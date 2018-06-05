@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0FFFF"
+    tools:context="com.varshayadv.tourguideapp.italy">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Select A City"
+            android:textColor="#191970"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/roma"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_below="@id/city"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/roma"
+            android:gravity="center"
+            android:text="ROMA"
+            android:textColor="#F5FFFA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/florance"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_below="@id/city"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/roma"
+            android:background="@drawable/florance"
+            android:gravity="center"
+            android:text="FLORENCE"
+            android:textColor="#F5FFFA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pisa"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_below="@id/roma"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/pisa"
+            android:gravity="center"
+            android:text="PISA"
+            android:textColor="#F5FFFA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/capri"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_below="@id/florance"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/pisa"
+            android:background="@drawable/capri"
+            android:gravity="center"
+            android:text="CAPRI"
+            android:textColor="#F5FFFA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.varshayadv.tourguideapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".italy"
+            android:label="ITALY" />
+        <activity android:name=".roma" />
+        <activity android:name=".florance" />
+        <activity android:name=".pisa" />
+        <activity android:name=".capri" />
+        <activity
+            android:name=".RomaActivity"
+            android:label="ROMA" />
+        <activity
+            android:name=".FloranceActivity"
+            android:label="FLORANCE" />
+        <activity
+            android:name=".PisaActivity"
+            android:label="PISA" />
+        <activity
+            android:name=".CapriActivity"
+            android:label="CAPRI" />
+        <activity
+            android:name=".ThingsToDoActivity"
+            android:label="THINGS TO DO IN ROMA" />
+        <activity
+            android:name=".SightsActivity"
+            android:label="ATTRACTIONS IN ROMA" />
+        <activity
+            android:name=".FloranceThingsToDoActivity"
+            android:label="THINGS TO DO IN FLORANCE" />
+        <activity
+            android:name=".FloranceSightsActivity"
+            android:label="ATTRACTIONS IN FLORANCE" />
+        <activity
+            android:name=".PisaThingsToDoActivity"
+            android:label="THINGS TO DO IN PISA" />
+        <activity
+            android:name=".PisaSightsActivity"
+            android:label="ATTRACTIONS IN PISA" />
+        <activity
+            android:name=".CapriThingsToDoActivity"
+            android:label="THINGS TO DO IN CAPRI" />
+        <activity
+            android:name=".CapriSightsActivity"
+            android:label="ATTRACTIONS IN CAPRI">
+
+        </activity>
+    </application>
+
+</manifest>

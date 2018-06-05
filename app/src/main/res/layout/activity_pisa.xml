@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0FFFF"
+    tools:context="com.varshayadv.tourguideapp.PisaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/pisa_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/florance" />
+
+        <TextView
+            android:id="@+id/pisa_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pisa_image"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="Pisa"
+            android:textColor="#191970"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pisa_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pisa_text"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="Pisa (/ˈpiːzə/; Italian pronunciation: [ˈpiːsa; ˈpiːza]  is a city in the Tuscany region of Central Italy straddling the Arnojust before it empties into the Ligurian Sea. It is the capital city of the Province of Pisa. Although Pisa is known worldwide for its leaning tower (the bell tower of the city's cathedral), the city of over 91,104 residents (around 200,000 with the metropolitan area) contains more than 20 other historic churches, several medieval palaces and various bridges across the Arno. Much of the city's architecture was financed from its history as one of the Italian maritime republics."
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/pisa_things_to_do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pisa_description"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="* Things To Do "
+            android:textColor="#0000CD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pisa_attractions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pisa_things_to_do"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="* Sights"
+            android:textColor="#0000CD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

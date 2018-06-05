@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.varshayadv.tourguideapp.FloranceSightsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/f11"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/f11" />
+
+        <ImageView
+            android:id="@+id/f22"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/f11"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/f22" />
+
+        <ImageView
+            android:id="@+id/f33"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/f22"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/f33" />
+
+        <ImageView
+            android:id="@+id/f44"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/f33"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/f44" />
+
+        <ImageView
+            android:id="@+id/f55"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/f44"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/f55" />
+
+    </RelativeLayout>
+
+</ScrollView>

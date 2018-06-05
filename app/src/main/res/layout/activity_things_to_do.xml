@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.varshayadv.tourguideapp.ThingsToDoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/r1" />
+
+        <ImageView
+            android:id="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/r1"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/r2" />
+
+        <ImageView
+            android:id="@+id/r3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/r2"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/r3" />
+
+
+        <ImageView
+            android:id="@+id/r5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/r3"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/r5" />
+
+        <ImageView
+            android:id="@+id/r6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/r5"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/r6" />
+
+    </RelativeLayout>
+
+</ScrollView>

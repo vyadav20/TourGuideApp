@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0FFFF"
+    tools:context="com.varshayadv.tourguideapp.CapriActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/capri_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/florance" />
+
+        <TextView
+            android:id="@+id/capri_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/capri_image"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="Capri"
+            android:textColor="#191970"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/capri_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/capri_text"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="Capri (usually pronounced /kəˈpriː/ by English speakers; Italian pronunciation: [ˈkaːpri]) is an island located in the Tyrrhenian Sea off the Sorrentine Peninsula, on the south side of the Gulf of Naples in the Campania region of Italy. The main town Capri that is located on the island shares the name. It has been a resort since the time of the Roman Republic.Some of the main features of the island include the following: the Marina Piccola (the little harbour), the Belvedere of Tragara (a high panoramic promenade lined with villas), the limestone crags called sea stacks that project above the sea (the Faraglioni), the town of Anacapri, the Blue Grotto (Grotta Azzurra), and the ruins of the Imperial Roman villas.Capri is part of the region of Campania, Province of Naples. The town of Capri is the island's main population centre. The island has two harbours, Marina Piccola and Marina Grande (the main port of the island). The separate comune of Anacapri is located high on the hills to the west."
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/capri_things_to_do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/capri_description"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="* Things To Do "
+            android:textColor="#0000CD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/capri_attractions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/capri_things_to_do"
+            android:layout_margin="8dp"
+            android:layout_marginTop="30dp"
+            android:text="* Sights"
+            android:textColor="#0000CD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
