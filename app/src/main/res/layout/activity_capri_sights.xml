@@ -1,67 +1,10 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E0FFFF"
+    android:orientation="vertical"
+    android:id="@+id/sights_capri"
     tools:context="com.varshayadv.tourguideapp.CapriSightsActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ImageView
-            android:id="@+id/c11"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/c11" />
-
-        <ImageView
-            android:id="@+id/c22"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/c11"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/c22" />
-
-        <ImageView
-            android:id="@+id/c33"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/c22"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/c33" />
-
-        <ImageView
-            android:id="@+id/c44"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/c33"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/c44" />
-
-        <ImageView
-            android:id="@+id/c55"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/c44"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/c55" />
-
-        <ImageView
-            android:id="@+id/c66"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/c55"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/c66" />
-
-    </RelativeLayout>
-
-</ScrollView>
+</ListView>

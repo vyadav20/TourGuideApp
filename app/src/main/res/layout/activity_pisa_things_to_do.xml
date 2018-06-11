@@ -1,85 +1,10 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/things_to_do_in_pisa"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E0FFFF"
+    android:orientation="vertical"
     tools:context="com.varshayadv.tourguideapp.PisaThingsToDoActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ImageView
-            android:id="@+id/p1"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/p1" />
-
-        <ImageView
-            android:id="@+id/p2"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/p1"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/p2" />
-
-        <ImageView
-            android:id="@+id/p3"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/p2"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/p3" />
-
-
-        <ImageView
-            android:id="@+id/p4"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/p3"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/p4" />
-
-        <ImageView
-            android:id="@+id/p5"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/p4"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/p5" />
-
-        <ImageView
-            android:id="@+id/p6"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/p5"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/p6" />
-
-        <ImageView
-            android:id="@+id/p7"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/p6"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/p7" />
-
-        <ImageView
-            android:id="@+id/p8"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/p7"
-            android:layout_margin="8dp"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/p8" />
-
-    </RelativeLayout>
-
-</ScrollView>
+</ListView>
