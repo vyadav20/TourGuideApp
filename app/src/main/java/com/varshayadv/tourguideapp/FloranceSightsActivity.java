@@ -14,11 +14,11 @@ public class FloranceSightsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_florance_sights);
 
         ArrayList<custom> w = new ArrayList<custom>();
-        w.add(new custom("First Attraction", R.drawable.f11));
-        w.add(new custom("Second Attraction", R.drawable.f22));
-        w.add(new custom("Third Attraction", R.drawable.f33));
-        w.add(new custom("Fourth Attraction", R.drawable.f44));
-        w.add(new custom("Fifth Attraction", R.drawable.f55));
+        w.add(new custom(getString(R.string.first_attraction), R.drawable.f11));
+        w.add(new custom(getString(R.string.second_attraction), R.drawable.f22));
+        w.add(new custom(getString(R.string.third_attraction), R.drawable.f33));
+        w.add(new custom(getString(R.string.fourth_attraction), R.drawable.f44));
+        w.add(new custom(getString(R.string.fifth_attraction), R.drawable.f55));
 
         customAdapter adapter = new customAdapter(this, w);
 

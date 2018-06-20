@@ -36,7 +36,7 @@
             android:layout_below="@id/capri_text"
             android:layout_margin="8dp"
             android:layout_marginTop="30dp"
-            android:text="Capri (usually pronounced /kəˈpriː/ by English speakers; Italian pronunciation: [ˈkaːpri]) is an island located in the Tyrrhenian Sea off the Sorrentine Peninsula, on the south side of the Gulf of Naples in the Campania region of Italy. The main town Capri that is located on the island shares the name. It has been a resort since the time of the Roman Republic.Some of the main features of the island include the following: the Marina Piccola (the little harbour), the Belvedere of Tragara (a high panoramic promenade lined with villas), the limestone crags called sea stacks that project above the sea (the Faraglioni), the town of Anacapri, the Blue Grotto (Grotta Azzurra), and the ruins of the Imperial Roman villas.Capri is part of the region of Campania, Province of Naples. The town of Capri is the island's main population centre. The island has two harbours, Marina Piccola and Marina Grande (the main port of the island). The separate comune of Anacapri is located high on the hills to the west."
+            android:text="Capri (usually pronounced /kəˈpriː/ by English speakers; Italian pronunciation: [ˈkaːpri]) is an island located in the Tyrrhenian Sea off the Sorrentine Peninsula, on the south side of the Gulf of Naples in the Campania region of Italy. The main town Capri that is located on the island shares the name. It has been a resort since the time of the Roman Republic"
             android:textColor="#0000FF" />
 
         <TextView

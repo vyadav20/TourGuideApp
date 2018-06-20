@@ -13,11 +13,11 @@ public class SightsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sights);
         ArrayList<custom> w = new ArrayList<custom>();
-        w.add(new custom("First Attraction",R.drawable.r11));
-        w.add(new custom("Second Attraction",R.drawable.r22));
-        w.add(new custom("Third Attraction",R.drawable.r33));
-        w.add(new custom("Fourth Attraction",R.drawable.r44));
-        w.add(new custom("Fifth Attraction",R.drawable.r55));
+        w.add(new custom(getString(R.string.first_attraction),R.drawable.r11));
+        w.add(new custom(getString(R.string.second_attraction),R.drawable.r22));
+        w.add(new custom(getString(R.string.third_attraction),R.drawable.r33));
+        w.add(new custom(getString(R.string.fourth_attraction),R.drawable.r44));
+        w.add(new custom(getString(R.string.fifth_attraction),R.drawable.r55));
 
         customAdapter adapter  = new customAdapter(this,w);
 

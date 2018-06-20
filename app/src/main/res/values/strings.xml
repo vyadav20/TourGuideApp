@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">TourGuideApp</string>
+    <string name="app_name">Tour Guide App</string>
+    <string name="first_attraction">First Attraction</string>
+    <string name="second_attraction">Second Attraction</string>
+    <string name="third_attraction">Third Attraction</string>
+    <string name="fourth_attraction">Fourth Attraction</string>
+    <string name="fifth_attraction">Fifth Attraction</string>
+    <string name="sixth_attraction">Sixth Attraction</string>
 </resources>
+

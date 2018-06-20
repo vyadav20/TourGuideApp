@@ -14,11 +14,11 @@ public class PisaSightsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pisa_sights);
 
         ArrayList<custom> w = new ArrayList<custom>();
-        w.add(new custom("First Attraction", R.drawable.p11));
-        w.add(new custom("Second Attraction", R.drawable.p22));
-        w.add(new custom("Third Attraction", R.drawable.p33));
-        w.add(new custom("Fourth Attraction", R.drawable.p44));
-        w.add(new custom("Fifth Attraction", R.drawable.p55));
+        w.add(new custom(getString(R.string.first_attraction), R.drawable.p11));
+        w.add(new custom(getString(R.string.second_attraction), R.drawable.p22));
+        w.add(new custom(getString(R.string.third_attraction), R.drawable.p33));
+        w.add(new custom(getString(R.string.fourth_attraction), R.drawable.p44));
+        w.add(new custom(getString(R.string.fifth_attraction), R.drawable.p55));
 
         customAdapter adapter = new customAdapter(this, w);
 

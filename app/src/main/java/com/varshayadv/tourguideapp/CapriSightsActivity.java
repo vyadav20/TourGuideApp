@@ -13,13 +13,15 @@ public class CapriSightsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_capri_sights);
 
+
+
         ArrayList<custom> w = new ArrayList<custom>();
-        w.add(new custom("First Attraction", R.drawable.c11));
-        w.add(new custom("Second Attraction", R.drawable.c22));
-        w.add(new custom("Third Attraction", R.drawable.c33));
-        w.add(new custom("Fourth Attraction", R.drawable.c44));
-        w.add(new custom("Fifth Attraction", R.drawable.c55));
-        w.add(new custom("Sixth Attraction", R.drawable.c66));
+        w.add(new custom(getString(R.string.first_attraction), R.drawable.c11));
+        w.add(new custom(getString(R.string.second_attraction), R.drawable.c22));
+        w.add(new custom(getString(R.string.third_attraction), R.drawable.c33));
+        w.add(new custom(getString(R.string.fourth_attraction), R.drawable.c44));
+        w.add(new custom(getString(R.string.fifth_attraction), R.drawable.c55));
+        w.add(new custom(getString(R.string.sixth_attraction), R.drawable.c66));
 
         customAdapter adapter = new customAdapter(this, w);
 
