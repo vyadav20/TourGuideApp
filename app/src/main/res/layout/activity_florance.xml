@@ -36,7 +36,7 @@
             android:layout_below="@id/florance_text"
             android:layout_margin="8dp"
             android:layout_marginTop="30dp"
-            android:text="Florence (/ˈflɒrəns/ FLORR-ənss; Italian: Firenze [fiˈrɛntse] (About this sound listen))[2] is the capital city of the Italian region of Tuscany. It is the most populous city in Tuscany, with 383,084 inhabitants in 2013, and over 1,520,000 in its metropolitan area."
+            android:text="@string/florance"
             android:textColor="#0000FF" />
 
         <TextView

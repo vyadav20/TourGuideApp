@@ -14,10 +14,10 @@ public class FloranceThingsToDoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_florance_things_to_do);
 
         ArrayList<custom> w = new ArrayList<custom>();
-        w.add(new custom("You Can Go For Tuscany Sightseeing", R.drawable.f1));
-        w.add(new custom("You Can Take Cinque Day Trip", R.drawable.f2));
-        w.add(new custom("You Can Take Pisa Trip", R.drawable.f3));
-        w.add(new custom("You Can Go For Florance Walking Tour", R.drawable.f4));
+        w.add(new custom(getString(R.string.first_thing), R.drawable.f1));
+        w.add(new custom(getString(R.string.second_thing), R.drawable.f2));
+        w.add(new custom(getString(R.string.third_thing), R.drawable.f3));
+        w.add(new custom(getString(R.string.fourth_thing), R.drawable.f4));
 
         customAdapter adapter = new customAdapter(this, w);
 

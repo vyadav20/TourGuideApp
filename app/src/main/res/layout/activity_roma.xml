@@ -36,7 +36,7 @@
             android:layout_below="@id/roma_text"
             android:layout_margin="8dp"
             android:layout_marginTop="30dp"
-            android:text="Roma [ˈroːma]) is the capital city of Italy and a special comune(named Comune di Roma Capitale). Rome also serves as the capital of the Lazio region.With 2,873,874 residents in 1,285 km2 (496.1 sq mi),[2] it is also the country's mostpopulated comune. It is the fourth-most populous city in the European Union by populationwithin city limits. It is the centre of the Metropolitan City of Rome"
+            android:text="@string/roma"
             android:textColor="#0000FF" />
 
         <TextView

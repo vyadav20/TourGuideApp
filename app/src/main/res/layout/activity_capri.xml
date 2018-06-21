@@ -36,7 +36,7 @@
             android:layout_below="@id/capri_text"
             android:layout_margin="8dp"
             android:layout_marginTop="30dp"
-            android:text="Capri (usually pronounced /kəˈpriː/ by English speakers; Italian pronunciation: [ˈkaːpri]) is an island located in the Tyrrhenian Sea off the Sorrentine Peninsula, on the south side of the Gulf of Naples in the Campania region of Italy. The main town Capri that is located on the island shares the name. It has been a resort since the time of the Roman Republic"
+            android:text="@string/capri"
             android:textColor="#0000FF" />
 
         <TextView

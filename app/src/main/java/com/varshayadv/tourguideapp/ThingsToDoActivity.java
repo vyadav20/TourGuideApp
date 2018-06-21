@@ -17,12 +17,12 @@ public class ThingsToDoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_things_to_do);
 
         ArrayList<custom> w = new ArrayList<custom>();
-        w.add(new custom("You Can Visit Vatican Museums", R.drawable.r1));
-        w.add(new custom("You Can Visit Colosseum", R.drawable.r2));
-        w.add(new custom("You Can Visit Ruins Of Pompeii", R.drawable.r3));
-        w.add(new custom("You Can Visit Rome Combo", R.drawable.r4));
-        w.add(new custom("You Can Take Hop-On Hop-Of", R.drawable.r5));
-        w.add(new custom("You Can Visit St Peter's", R.drawable.r6));
+        w.add(new custom(getString(R.string.first_thing), R.drawable.r1));
+        w.add(new custom(getString(R.string.second_thing), R.drawable.r2));
+        w.add(new custom(getString(R.string.third_thing), R.drawable.r3));
+        w.add(new custom(getString(R.string.fourth_thing), R.drawable.r4));
+        w.add(new custom(getString(R.string.fifth_thing), R.drawable.r5));
+        w.add(new custom(getString(R.string.sixth_thing), R.drawable.r6));
 
         customAdapter adapter = new customAdapter(this, w);
 

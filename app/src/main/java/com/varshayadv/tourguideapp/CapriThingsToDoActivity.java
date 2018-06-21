@@ -14,12 +14,12 @@ public class CapriThingsToDoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_capri_things_to_do);
 
         ArrayList<custom> w = new ArrayList<custom>();
-        w.add(new custom("You Can Take Capri Day Trip", R.drawable.c1));
-        w.add(new custom("You Can Take Naples Tour", R.drawable.c2));
-        w.add(new custom("You Can Take Napels Shore Tour", R.drawable.c3));
-        w.add(new custom("You Can Visit Blue Grotto ", R.drawable.c4));
-        w.add(new custom("You Can Visit Positano Sorrento", R.drawable.c5));
-        w.add(new custom("You Can Visit Mt. Vesuvius", R.drawable.c6));
+        w.add(new custom(getString(R.string.first_thing), R.drawable.c1));
+        w.add(new custom(getString(R.string.second_thing), R.drawable.c2));
+        w.add(new custom(getString(R.string.third_thing), R.drawable.c3));
+        w.add(new custom(getString(R.string.fourth_thing), R.drawable.c4));
+        w.add(new custom(getString(R.string.fifth_thing), R.drawable.c5));
+        w.add(new custom(getString(R.string.sixth_thing), R.drawable.c6));
 
         customAdapter adapter = new customAdapter(this, w);
 

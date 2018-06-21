@@ -36,7 +36,7 @@
             android:layout_below="@id/pisa_text"
             android:layout_margin="8dp"
             android:layout_marginTop="30dp"
-            android:text="Pisa (/ˈpiːzə/; Italian pronunciation: [ˈpiːsa; ˈpiːza]  is a city in the Tuscany region of Central Italy straddling the Arnojust before it empties into the Ligurian Sea. It is the capital city of the Province of Pisa. Although Pisa is known worldwide for its leaning tower (the bell tower of the city's cathedral), the city of over 91,104 residents (around 200,000 with the metropolitan area) contains more than 20 other historic churches, several medieval palaces and various bridges across the Arno. Much of the city's architecture was financed from its history as one of the Italian maritime republics."
+            android:text="@string/pisa"
             android:textColor="#0000FF" />
 
         <TextView
